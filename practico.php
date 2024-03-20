@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    // El end debe de estar por separado del texto y sin espacios
     <?php echo <<<END
     Prueba sobre la funcionalidad,
     supuestamente deja un renglon por medio. 
