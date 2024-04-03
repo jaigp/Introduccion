@@ -9,6 +9,7 @@
     <?php echo <<<END
     Prueba sobre la funcionalidad,
     supuestamente deja un renglon por medio. 
+    HOLA
     END;   ?>
     <p>Y esta es la diferenca entre el "parrafo" de arriba y abajo</p>
 </body>
