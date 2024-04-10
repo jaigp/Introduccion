@@ -31,8 +31,9 @@
 
         Apellido = 'Fernandez';
         /*
-        Preferiblemente que la variable si es una sola palabra este todo en minuscula;
-        Faltaria el signo de "$" para iniciar la variable y para mejorar legibilidad es mejor utilizar las dobles comillas antes que las simples.
+        Preferiblemente que la variable si es una sola palabra este todo en minuscula, sin mencionar que es buena practica iniciar las variables con minuscula;
+        Faltaria el signo de "$" para iniciar la variable y para mejorar legibilidad es mejor utilizar las dobles comillas antes que las simples,
+        podria el nombre de la variable dar mayor informacion de quen es el apellido.
         */
 
         pais_de_origen = "Uruguay"
