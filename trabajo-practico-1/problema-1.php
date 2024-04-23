@@ -19,16 +19,16 @@
                 $precioPorKgBanana = 200;
                 $precioPorKgManzana = 700;
 
-                if (isset($_GET['submit'])) {
-                    $getBanana = (int)$_GET['banana'];
-                    $getManzana = (int)$_GET['manzana'];
+                if (isset($_POST['submit'])) {
+                    $getBanana = (int)$_POST['banana'];
+                    $getManzana = (int)$_POST['manzana'];
                 }
 
                 $precioFinalBanana = $getBanana * $precioPorKgBanana;
                 $precioFinalManzana = $getManzana * $precioPorKgManzana;
                 $precioTotal = $precioFinalBanana + $precioFinalManzana;
         ?>
-        <form action="" method="get">
+        <form action="" method="post">
             <input type="number" name ="banana" placeholder="Bananas" min="0">
             <input type="number" name="manzana" placeholder="Manzanas" min="0">
             <input type="submit" value="submit" name="submit" id="submitBtn">
